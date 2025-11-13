@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import bg from "./assets/bg.jpg";
 import { ToastContainer, toast } from "react-toastify";
 
-const link = "http://localhost:3000";
+const link = "https://ece-freshers-backend.onrender.com";
 
 function App() {
   const [count, setCount] = useState(0);
