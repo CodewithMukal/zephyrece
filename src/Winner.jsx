@@ -24,7 +24,8 @@ export const Winner = () => {
               <a className="text-amber-600" href="https://www.instagram.com/krish._.negi">
                 @krish._.negi
               </a>{" "}
-              to claim your shit ass prize!
+              with screenshot to claim your shit ass prize! <br/>
+              Also thank Mukal Markanda 🤑
             </h1>
           </div>
         </div>
