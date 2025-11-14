@@ -21,10 +21,11 @@ export const Winner = () => {
           <div className="bg-white/20 border py-10 text-white border-amber-600 backdrop-blur-3xl max-w-[600px] w-[90%] p-4 mx-auto rounded-lg shadow-md flex flex-col gap-4">
             <h1 className="text-center font-bold">
               DM{" "}
-              <a className="text-amber-600" href="https://instagram.com">
-                @krish_negi
+              <a className="text-amber-600" href="https://www.instagram.com/krish._.negi">
+                @krish._.negi
               </a>{" "}
-              to claim your shit ass prize!
+              with screenshot to claim your shit ass prize! <br/>
+              Also thank Mukal Markanda 🤑
             </h1>
           </div>
         </div>
