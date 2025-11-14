@@ -21,12 +21,28 @@ export const Winner = () => {
           <div className="bg-white/20 border py-10 text-white border-amber-600 backdrop-blur-3xl max-w-[600px] w-[90%] p-4 mx-auto rounded-lg shadow-md flex flex-col gap-4">
             <h1 className="text-center font-bold">
               DM{" "}
-              <a className="text-amber-600" href="https://www.instagram.com/krish._.negi">
+              <a
+                className="text-amber-600"
+                href="https://www.instagram.com/krish._.negi"
+              >
                 @krish._.negi
               </a>{" "}
-              with screenshot to claim your shit ass prize! <br/>
+              with screenshot to claim your shit ass prize! <br />
               Also thank Mukal Markanda 🤑
             </h1>
+            <div className="flex justify-center items-start flex-col bg-white text-black px-2 py-2 rounded-2xl border-2 border-black">
+              <p>
+                <strong>Name:</strong>{" "}
+                {JSON.parse(localStorage.getItem("winner")).name}
+              </p>
+              <p>
+                <strong>Email:</strong>{" "}
+                {JSON.parse(localStorage.getItem("winner")).email}
+              </p>
+              <p className="mx-auto my-4 text-green-500 text-center font-bold text-2xl">
+                Winner!
+              </p>
+            </div>
           </div>
         </div>
       )}

@@ -42,7 +42,7 @@ function App() {
     }
     if (data.status === "success") {
       toast.success(data.message);
-      localStorage.setItem("winner", {name:name, email:email});
+      localStorage.setItem("winner", JSON.stringify({"name":name, "email":email}));
       window.location.href = "/winner";
     } else {
       toast.error(data.message);
