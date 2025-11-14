@@ -5,7 +5,6 @@ import { ToastContainer, toast } from "react-toastify";
 const link = "https://ece-freshers-backend.onrender.com";
 
 function App() {
-  const [count, setCount] = useState(0);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [code, setCode] = useState("");
@@ -43,7 +42,7 @@ function App() {
     }
     if (data.status === "success") {
       toast.success(data.message);
-      localStorage.setItem("winner", true);
+      localStorage.setItem("winner", {name:name, email:email});
       window.location.href = "/winner";
     } else {
       toast.error(data.message);
